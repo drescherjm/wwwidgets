@@ -43,8 +43,8 @@ unix {
 #    OBJECTS_DIR = obj
 #}
 
-WDD = $$IN_PWD
-message( Got Here $$WDD )
+#WDD = $$IN_PWD
+#message( Got Here $$WDD )
 include(../widgets.pri)
 #include( ../qwwbuttonlineedit.pri		)
 
