@@ -41,6 +41,12 @@
 #include "qwwrichtexteditiface.h"
 #include "qwwlistnavigatoriface.h"
 #include "qwwlediface.h"
+#include "../widgets/qwwtaskpanel/qwwtaskpanel.h"
+#include "../widgets/qwwnavigationbar/qwwnavigationbar.h"
+#include "../widgets/qwwconfigwidget/qwwconfigwidget.h"
+#include "../widgets/qwwcolorbutton/qwwcolorbutton.h"
+#include "../widgets/qwwcolorcombobox/qwwcolorcombobox.h"
+#include "../widgets/qwwtwocolorindicator/qwwtwocolorindicator.h"
 
 #include <QMutex>
 #include <QSettings>

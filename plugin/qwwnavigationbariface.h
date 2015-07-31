@@ -15,9 +15,10 @@
 #include "wwinterfaces.h"
 
 #include <QVariant>
- #include <QExtensionManager>
-#include "qwwnavigationbar.h"
+#include <QExtensionManager>
+//#include "qwwnavigationbar.h"
 
+class QwwNavigationBar;
 
 class QwwNavigationBarIface : public wwWidgetInterface
 {

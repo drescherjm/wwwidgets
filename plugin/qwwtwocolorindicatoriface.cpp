@@ -16,7 +16,7 @@
 #include <QtDesigner/QDesignerFormWindowCursorInterface>
 
 #include "qwwtwocolorindicatoriface.h"
-#include "qwwtwocolorindicator.h"
+#include "../widgets/qwwtwocolorindicator/qwwtwocolorindicator.h"
 #include "wwwidgets.h"
 #include <QColorDialog>
 

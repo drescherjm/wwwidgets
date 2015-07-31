@@ -22,7 +22,7 @@ unix:LIBS += -L../widgets
 
 win32 {
     CONFIG(release): LIBS += -L../widgets/release -lwwwidgets$$QT_MAJOR_VERSION
-#   CONFIG(debug): LIBS += -L../widgets/debug  
+    CONFIG(debug): LIBS += -L../widgets/debug  -lwwwidgets$$QT_MAJOR_VERSION
 }
 
 equals ($$QT_MAJOR_VERSION, 5) {

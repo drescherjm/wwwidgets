@@ -13,8 +13,10 @@
 #define QWWTWOCOLORINDICATORIFACE_H
 
 #include "wwinterfaces.h"
-#include "qwwtwocolorindicator.h"
+//#include "../widgets/qwwtwocolorindicator/qwwtwocolorindicator.h"
 #include <QDesignerTaskMenuExtension>
+
+class QwwTwoColorIndicator;
 
 class QwwTwoColorIndicatorIface : public wwWidgetInterface {
     Q_OBJECT

@@ -13,8 +13,10 @@
 #define QWWCOLORBUTTONIFACE_H
 
 #include "wwinterfaces.h"
-#include "qwwcolorbutton.h"
+#include "../widgets/qwwcolorbutton/qwwcolorbutton.h"
 #include <QDesignerTaskMenuExtension>
+
+//class QwwColorButton;
 
 class QwwColorButtonIface : public wwWidgetInterface {
     Q_OBJECT

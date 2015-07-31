@@ -16,8 +16,9 @@
 #include <QTimer>
 #include <QVariant>
 
-#include "qwwtaskpanel.h"
+//#include "qwwtaskpanel.h"
 
+class QwwTaskPanel;
 
 class QwwTaskPanelIface : public wwWidgetInterface {
     Q_OBJECT

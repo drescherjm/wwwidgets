@@ -15,8 +15,11 @@
 #include "wwinterfaces.h"
 
 #include <QVariant>
- #include <QExtensionManager>
-#include "qwwconfigwidget.h"
+#include <QExtensionManager>
+
+//#include "qwwconfigwidget.h"
+
+class QwwConfigWidget;
 
 /**
 	@author Witold Wysota <wysota@wysota.eu.org>

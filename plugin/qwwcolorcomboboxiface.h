@@ -15,7 +15,9 @@
 
 #include "wwinterfaces.h"
 #include <QDesignerTaskMenuExtension>
-#include "qwwcolorcombobox.h"
+//#include "qwwcolorcombobox.h"
+
+class QwwColorComboBox;
 
 class QwwColorComboBoxIface : public wwWidgetInterface {
     Q_OBJECT
