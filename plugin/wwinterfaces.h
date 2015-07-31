@@ -12,8 +12,13 @@
 #ifndef __WWINTERFACES_H
 #define __WWINTERFACES_H
 
-#include <QDesignerCustomWidgetInterface>
 #include <QVariant>
+
+#if (QT_VERSION < QT_VERSION_CHECK(5,5,0))
+#include <QDesignerCustomWidgetInterface>
+#else
+#include <QtUiPlugin/QDesignerCustomWidgetInterface>
+#endif 
 
 #include <QtDesigner/QDesignerPropertySheetExtension>
 #include <QtDesigner/QDesignerContainerExtension>

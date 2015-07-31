@@ -43,7 +43,10 @@ unix {
 #    OBJECTS_DIR = obj
 #}
 
-include(widgets.pri)
+WDD = $$IN_PWD
+message( Got Here $$WDD )
+include(../widgets.pri)
+#include( ../qwwbuttonlineedit.pri		)
 
 buildhtmldocs.commands = cd qdoc && qdoc3 -creator wwwidgets-4.7.qdocconf
 buildhtmldocs.target = htmldocs

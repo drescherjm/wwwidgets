@@ -1,4 +1,4 @@
-WD = $${PWD}
+WD = $${PWD}/..
 contains(TARGET, plugin) {
   SOURCES += $$WD/plugin/qwwbreadcrumbiface.cpp
   HEADERS += $$WD/plugin/qwwbreadcrumbiface.h

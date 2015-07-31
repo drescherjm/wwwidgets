@@ -20,6 +20,7 @@ CONFIG += wwwidgets_install_mkspecs \
 #NOTQCH = 1 2 3
 #!contains(NOTQCH, $$QT_MINOR_VERSION):CONFIG+=wwwidgets_install_docs_qch wwwidgets_register_qch
 
+
 include(wwwidgets_utils.pri)
 
 INSTALL_HEADERS += widgets/wwglobal.h
